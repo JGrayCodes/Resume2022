@@ -1,65 +1,110 @@
+/*styling targeting the entire body of the webpage*/
+body {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 110%;
+  background-color: #FCF7F8;
+}
+
+a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+a:active {
+  color: #1d5458;
+  font-weight: bold;
+}
+
+
+
+/*Styling for top of webpage follows:*/
 header {
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 110%;
   text-align: center;
   background-image: linear-gradient(180deg, #1d565d, #1d5458, #18474c, #0e2a2d);
   border-radius: 10px;
   color: lightblue;
   margin: 0;
+  padding-bottom: 1px;
 }
 
-#profilePhoto{
-  width: 20%;
-  height: 20%;
+#profilePhoto {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  border: 5px solid lightblue;
+  border: lightblue;
+  border-style: solid hidden solid;
   margin: 1em;
 }
 
-header > p {
+h1 {
+  margin: 0;
+}
+
+/*styling targeting the paragraph text inside the header*/
+header>p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-body {
-  font-family: sans-serif;
-  font-size: 110%;
-  background-color: #FCF7F8;
-}
-
+/*styling targeting the sidebar and navigation menu*/
 #sidebar {
+  color: black;
+  position: fixed;
   width: 20%;
-  background-color: #e1e1e1;
+  height: 175px;
+  background-color: lightblue;
   border: solid #1d5458;
   border-radius: 10px;
-  padding: 1rem;
+  margin-top: 1.3rem;
+  padding-left: 2%;
 }
+
 
 .navlist {
   list-style-type: none;
   padding: 0%;
 }
 
-section > h2 {
+
+/*styling targeting the article content*/
+.content {
+  margin-left: 28%;
+  display: flex;
+  flex-direction: column;
+}
+
+section>h2 {
+  color: black;
   border-style: groove;
   border-width: 5px;
   border-color: #2e848a;
-  border-radius: 5px;    
+  border-radius: 5px;
   padding: 0.25rem;
 }
 
+.link {
+  color
+}
+
+.justlists>ul {
+  padding-left: 1rem;
+  list-style-type: disc;
+}
+
+/*styling the footer and icons therein*/
 
 footer {
   text-align: center;
-  background-color: #343330;
-  background-image: linear-gradient(360deg,  #1d565d, #1d5458, #18474c, #0e2a2d);
+  background-image: linear-gradient(360deg, #1d565d, #1d5458, #18474c, #0e2a2d);
   color: lightblue;
   border-radius: 10px;
-  padding: 0.5rem;
+  padding: 0.1rem;
 }
 
 #icons {
-  width: 4rem;
-  height: 4rem;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
 }
