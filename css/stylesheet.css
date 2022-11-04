@@ -1,16 +1,18 @@
 /*styling targeting the entire body of the webpage*/
 body {
-  color: black;
+  color: darkblue;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 110%;
   background-color: #FCF7F8;
 }
 
+/*link changes from blue to black and bold (if not bold already) when mouse hovers over it*/
 a:hover {
   color: black;
   font-weight: bold;
 }
 
+/*link changes from blue/black to black and bold (if not bold already) when mouse clicks it*/
 a:active {
   color: #1d5458;
   font-weight: bold;
@@ -49,7 +51,7 @@ header>p {
 }
 
 /*styling targeting the sidebar and navigation menu*/
-#sidebar {
+#sideBar {
   color: black;
   position: fixed;
   width: 20%;
@@ -62,7 +64,7 @@ header>p {
 }
 
 
-.navlist {
+.navList {
   list-style-type: none;
   padding: 0%;
 }
@@ -84,11 +86,7 @@ section>h2 {
   padding: 0.25rem;
 }
 
-.link {
-  color
-}
-
-.justlists>ul {
+.justLists>ul {
   padding-left: 1rem;
   list-style-type: disc;
 }
